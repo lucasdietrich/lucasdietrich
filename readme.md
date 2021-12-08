@@ -1,5 +1,7 @@
 Hi, my name is Lucas, I'm 25 years old, I'm an embedded software engineer, working for Actimage GmbH since end of 2020. You can find on my GitHub most of my personnals projects related to embedded. Some are PoC, others are unachieved (yet) projects and others should even work ! And somehow documentated. 😃
 
+# Projects 
+
 - **On AVR architecture µC** :
     - [AVRTOS](https://github.com/lucasdietrich/AVRTOS#readme) : RTOS attempt for AVR 8bits microcontrollers: Multithreading (coop/prempt), scheduler, mutex, and more ... Compatible with (most of) AVR Arduino boards !
     - Reference application based on `AVRTOS` : [avr-can-tool](https://github.com/lucasdietrich/avr-can-tool) : Firmware for Arduino Pro/Mega in order to send and receive messages over a CAN bus using a shell over the UART. The purpose is to offer a tool to debug CAN devices messages.
@@ -26,6 +28,22 @@ Hi, my name is Lucas, I'm 25 years old, I'm an embedded software engineer, worki
 
 - **Others** (non-embedded) :
     - [gsurface](https://github.com/lucasdietrich/gsurface#readme) : Python library to simulate and plot simple or structured point masses guided by 2D surfaces using a Newton 2nd Law Approach
+
+# Contributions
+
+- Zephyr RTOS
+    - Networking (mbedTLS and TCP stack) :
+        - [net:sockets:tls MBEDTLS Heap optimisation and API support for chained X509 certificates in DER format #40267](https://github.com/zephyrproject-rtos/zephyr/issues/40267)
+            - [[ v2.6-branch] net: sockets: tls: Support for DER cert chain and NOCOPY optimisation #40255](https://github.com/zephyrproject-rtos/zephyr/pull/40255)
+            - [[ main ] net: sockets: tls: Support for DER cert chain and NOCOPY optimisation #40627](https://github.com/zephyrproject-rtos/zephyr/pull/40627)
+        - [poll() not notified when a TLS/TCP connection is closed without TLS close_notify #39660](https://github.com/zephyrproject-rtos/zephyr/issues/39660)
+
+    - Drivers CAN :
+        - [drivers: can: Fixed timeout values comparison ](https://github.com/zephyrproject-rtos/zephyr/pull/40331)
+    - Random Fix :
+        - [kernel: Z_MEM_SLAB_INITIALIZER MACRO not compatible with C++ #38219](https://github.com/zephyrproject-rtos/zephyr/issues/38219)
+            - [kernel/mem_slab: reorder Z_MEM_SLAB_INITIALIZER() initializers #38221](https://github.com/zephyrproject-rtos/zephyr/pull/38221)
+
 
 ---
 
