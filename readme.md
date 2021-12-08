@@ -1,7 +1,7 @@
 Hi, my name is Lucas, I'm 25 years old, I'm an embedded software engineer, working for Actimage GmbH since end of 2020. You can find on my GitHub most of my personnals projects related to embedded. Some are PoC, others are unachieved (yet) projects and others should even work ! And somehow documentated. 😃
 
 - **On AVR architecture µC** :
-    - [AVRTOS](https://github.com/lucasdietrich/AVRTOS#readme) : RTOS attempt for AVR 8bits multiprocessors: Multithreading (coop/prempt), scheduler, mutex, and more ... Compatible with (most of) AVR Arduino boards !
+    - [AVRTOS](https://github.com/lucasdietrich/AVRTOS#readme) : RTOS attempt for AVR 8bits microcontrollers: Multithreading (coop/prempt), scheduler, mutex, and more ... Compatible with (most of) AVR Arduino boards !
     - Reference application based on `AVRTOS` : [avr-can-tool](https://github.com/lucasdietrich/avr-can-tool) : Firmware for Arduino Pro/Mega in order to send and receive messages over a CAN bus using a shell over the UART. The purpose is to offer a tool to debug CAN devices messages.
 
 - **ARMv7 architecture (Cortex-M4) + Zephyr RTOS** :
