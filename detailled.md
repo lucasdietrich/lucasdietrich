@@ -45,6 +45,7 @@ Hi, my name is Lucas, I'm 25 years old, I'm an embedded software engineer, worki
             - [kernel/mem_slab: reorder Z_MEM_SLAB_INITIALIZER() initializers #38221](https://github.com/zephyrproject-rtos/zephyr/pull/38221)
 
 
+
 ---
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=lucasdietrich&langs_count=4&layout=compact)
