@@ -32,18 +32,20 @@ Hi, my name is Lucas, I'm 25 years old, I'm an embedded software engineer, worki
 # Contributions
 
 - Zephyr RTOS
+    - Kernel (polling API) :
+        - [kernel: Recursive spinlock in k_msgq_get() in the context of a k_work_poll handler #45267](https://github.com/zephyrproject-rtos/zephyr/issues/45267)
+            - [Fix recursive spinlock in k_msgq_get #45311](https://github.com/zephyrproject-rtos/zephyr/pull/45311)
     - Networking (mbedTLS and TCP stack) :
         - [net:sockets:tls MBEDTLS Heap optimisation and API support for chained X509 certificates in DER format #40267](https://github.com/zephyrproject-rtos/zephyr/issues/40267)
             - [[ v2.6-branch] net: sockets: tls: Support for DER cert chain and NOCOPY optimisation #40255](https://github.com/zephyrproject-rtos/zephyr/pull/40255)
             - [[ main ] net: sockets: tls: Support for DER cert chain and NOCOPY optimisation #40627](https://github.com/zephyrproject-rtos/zephyr/pull/40627)
         - [poll() not notified when a TLS/TCP connection is closed without TLS close_notify #39660](https://github.com/zephyrproject-rtos/zephyr/issues/39660)
-
     - Drivers CAN :
-        - [drivers: can: Fixed timeout values comparison ](https://github.com/zephyrproject-rtos/zephyr/pull/40331)
+        - [drivers: can: Fixed timeout values comparison](https://github.com/zephyrproject-rtos/zephyr/pull/40331)
     - Random Fix :
         - [kernel: Z_MEM_SLAB_INITIALIZER MACRO not compatible with C++ #38219](https://github.com/zephyrproject-rtos/zephyr/issues/38219)
             - [kernel/mem_slab: reorder Z_MEM_SLAB_INITIALIZER() initializers #38221](https://github.com/zephyrproject-rtos/zephyr/pull/38221)
-
+    
 
 
 ---
