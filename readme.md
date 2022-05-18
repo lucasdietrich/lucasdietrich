@@ -9,3 +9,4 @@ Quick access :
 - [stm32l011k4-cube](https://github.com/lucasdietrich/stm32l011k4-cube) : bare metal dev on nucleo_l011k4 with STM32CubeL0 drivers (OpenOCD)
 - [nrf5-sdk-application-dev](https://github.com/lucasdietrich/nrf5-sdk-application-dev) : bare metal dev on nrf52840 with nRF5 SDK
 - [cpp-linux](https://github.com/lucasdietrich/cpp-linux) : C/CPP spikes/PoC in Linux Platform (TODO rename + gather all spikes I have in here)
+- [caniot-lib](https://github.com/lucasdietrich/caniot-lib)
