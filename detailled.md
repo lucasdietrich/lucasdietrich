@@ -1,6 +1,10 @@
-Hi, my name is Lucas, I'm 25 years old, I'm an embedded software engineer, working for Actimage GmbH since end of 2020. You can find on my GitHub most of my personnals projects related to embedded. Some are PoC, others are unachieved (yet) projects and others should even work ! And somehow documentated. 😃
+Hi, my name is Lucas, I'm 26. I graduated from the INSA Toulouse two years ago and I'm passionate about embedded systems (to stay vague) and physics. Please find bellow few of my ES projects I'm working on. 😃
+
+Please be critical with my work and tell me what I'm doing bad, I'm still a beginner and I want to improve myself (in coding but also in architectures/solutions/communication/ideas...). And I need other people, at least, to write what they think about my work. So if anyone passes by here, don't hesitate. Thank you.
 
 # Projects 
+
+Some are PoC, others are unachieved (yet) projects and latest should even work ! And somehow documentated.
 
 - **On AVR architecture µC** :
     - [AVRTOS](https://github.com/lucasdietrich/AVRTOS#readme) : RTOS attempt for AVR 8bits microcontrollers: Multithreading (coop/prempt), scheduler, mutex, and more ... Compatible with (most of) AVR Arduino boards !
