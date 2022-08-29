@@ -8,4 +8,4 @@ Dev environments:
 - **[linux-dev](https://github.com/lucasdietrich/linux-dev)** : C/CPP spikes/PoC in Linux Platform
 - [linux-arm-asm-demo](https://github.com/lucasdietrich/linux-arm-asm-demo) : Linux ARM Assembly (target: QEMU)
 - [stm32l011k4-cube](https://github.com/lucasdietrich/stm32l011k4-cube) : Bare-metal STM32Cube ARM CortexM0 plus (target: stm32l011k4)
-- **[uc-os3-qemu-arm-demo](https://github.com/lucasdietrich/uc-os3-qemu-arm-demo)**: Attempt to test networking features of a Micrium OS (µC-OS3) application in QEMU for ARM.
+- **[micrium-os3-qemu-arm-demo](https://github.com/lucasdietrich/micrium-os3-qemu-arm-demo)**: Attempt to test networking features of a Micrium OS (µC-OS3) application in QEMU for ARM.
