@@ -1,4 +1,4 @@
-Hi, my name is Lucas, I'm 26. I graduated from the INSA Toulouse two years ago and I'm passionate about embedded systems (to stay vague) and physics. 
+I'm passionate about embedded systems (to stay vague) and physics. 
 
 - [Summary of my personal projects and contributions](https://github.com/lucasdietrich/lucasdietrich/blob/master/detailled.md)
 
